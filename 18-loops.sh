@@ -36,7 +36,7 @@ do
         VALIDATE $? "$package"
 
     else
-        echo -e "$package already installed ... $Y SKIPPING $N" &>>$LOG_FILE
+        echo -e "$package already installed ... $Y SKIPPING $N" 
     fi
 done
 
